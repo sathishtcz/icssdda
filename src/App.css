@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@400;500;600;700&family=Tangerine:wght@400;700&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+
+/* body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+   font-style: normal;
+}
+
+
+/* Inter Font */
+.inter-light {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-medium {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-semibold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-bold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* 
+.roboto-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-semibold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+
+
+
+

@@ -67,7 +67,7 @@ export default function Papersub() {
             googleSheetsParams.append('Institution_Name', formData.Institution_Name);
             googleSheetsParams.append('Paper_Track', formData.Paper_Track);
 
-            const mailPromise = fetch('http://192.168.1.53/ICSSDDA/mail.php', {
+            const mailPromise = fetch('https://icssdda.com/api/mail.php', {
                 method: 'POST',
                 body: formDataToSend,
             });

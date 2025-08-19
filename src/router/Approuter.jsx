@@ -28,7 +28,6 @@ export default function Approuter() {
                     <Route path="/editorial" element={<Editorialpage />} />
                     <Route path="important-dates" element={<Keydatepage />} />
                     <Route path="/paper-submission" element={<Papersubpage />} />
-                    <Route path="/register" element={<Registerpage />} />
                     <Route path="/contact" element={<Contactpage />} />
                 </Route>
             </Routes>

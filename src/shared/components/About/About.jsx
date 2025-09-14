@@ -40,7 +40,7 @@ function About() {
                   <img src="/assets/images/About.png" alt="Hero image" className='xl:w-[510px] 2xl:w-[600px] w-[450px] mx-auto transition-all duration-300 ' />
                 </div>
               </div>
-              <p className="sm:text-base md:text-lg lg:text-[16px] text-gray-900 leading-[30px] text-justify">ICSSDDA is a global forum that brings together researchers, academicians, industry professionals, and innovators to discuss the latest advancements and practical applications in software engineering, systems development, and data analytics.</p>
+              <p className="sm:text-base md:text-lg lg:text-[16px] text-gray-900 leading-[30px] text-justify">ICSSDDA is a global forum that brings together researchers, academicians, industry professionals, and innovators to discuss the latest advancements and practical applications in software engineering, systems development, and data analytics. The Selective accepted papers of our International Conference on Software Systems Development and Data Analysis will be recommended to publish in the indexed Journals.</p>
               <div className="space-y-7 mt-8">
                 <div className="flex gap-4 items-center hover:bg-[#F3E9DC] hover:px-7 hover:py-6  rounded-3xl duration-300">
                   <div className="bg-[#F3E9DC] p-2 rounded-full flex-shrink-0">

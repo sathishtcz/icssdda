@@ -4,11 +4,26 @@ import { FiArrowRightCircle } from 'react-icons/fi';
 import { FaLaptopCode, FaRegCalendar } from 'react-icons/fa';
 import { PiMapPinAreaBold } from 'react-icons/pi';
 import { LuCalendarClock } from 'react-icons/lu';
+import Marquee from 'react-fast-marquee';
 
 
 
 function Home() {
 
+
+  const imageItems = [
+    { src: 'assets/images/associates/1.png', },
+    { src: 'assets/images/associates/2.jpg', },
+    { src: 'assets/images/associates/3.jpg', },
+    { src: 'assets/images/associates/4.jpg', },
+    { src: 'assets/images/associates/5.jpg', },
+    { src: 'assets/images/associates/6.jpg', },
+    { src: "assets/images/associates/scopus.png", },
+    { src: "assets/images/associates/8.jpg", },
+    { src: "assets/images/associates/9.jpg", },
+    { src: "assets/images/associates/10.jpg", },
+    { src: "assets/images/associates/11.jpg", },
+  ];
 
 
   return (
@@ -273,6 +288,27 @@ function Home() {
           </div>
 
         </div>
+      </div>
+
+
+      {/*Indexed Journals*/}
+      <div className="lg:mt-15 mt-10 text-center">
+        
+          <h3 className='md:text-3xl text-xl font-semibold text-gray-900'>Indexed Journals</h3>
+          
+      </div>
+      <div className="xl:max-w-[1450px]  md:max-w-[920px] px-3 mx-auto mt-3">
+        <p className="inter-regular text-gray-700 sm:text-base md:text-lg lg:text-[16px] text-center max-w-5xl mx-auto leading-[30px] ">The Selective accepted papers of our International Conference on Software Systems Development and Data Analysis will be recommended to publish in the following index & publisher Journals.</p>
+        <Marquee direction="left" speed={100}>
+          {/* pauseOnHover={true} */}
+          <div className="flex pb-5 pt-5 ">
+            {imageItems.map((item, index) => (
+              <div key={index} className="flex justify-center mr-10  py-5" >
+                <img src={item.src} alt="images" className=" w-[300px] rounded-lg shadow-[0_0_8px_rgba(0,0,0,0.15)] hover:shadow-[0_0_20px_rgba(0,0,0,0.15)] transition duration-300 hover:-translate-y-4" />
+              </div>
+            ))}
+          </div>
+        </Marquee>
       </div>
 
     </div>

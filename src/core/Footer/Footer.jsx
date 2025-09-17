@@ -32,10 +32,10 @@ export default function Footer() {
                                 <GoDotFill className='w-[10px] flex-shrink-0' />
                                 <Link to="/scope" className="text-gray-100 hover:text-white transition-all duration-300 block text-[16px]">Scope of Conference</Link>
                             </li>
-                            <li className='flex items-center gap-2'>
+                            {/* <li className='flex items-center gap-2'>
                                 <GoDotFill className='w-[10px] flex-shrink-0' />
                                 <Link to="/organizingCommittee" className="text-gray-100 hover:text-white transition-all duration-300 block text-[16px]">Organizing Committee</Link>
-                            </li>
+                            </li> */}
                             <li className='flex items-center gap-2'>
                                 <GoDotFill className='w-[10px] flex-shrink-0' />
                                 <Link to="/editorial" className="text-gray-100 hover:text-white transition-all duration-300 block text-[16px]">Editorial Board</Link>

@@ -19,7 +19,7 @@ export default function Editorialboard() {
         },
         {
             name: "Dr. Ashok Kumar",
-            department: "Department of Computer Science ",
+            department: "Department of Computer Science",
             university: "Skyline  University",
             location: "Nigeria"
         },
@@ -256,7 +256,7 @@ export default function Editorialboard() {
     {
         name: "Dr.Md Foysal",
         department: "Department of Electronics and Communication Engineering",
-        university: "Khulna University of Engineering and Technology ",
+        university: "Khulna University of Engineering and Technology",
         location: "Bangladesh"
     },
     {
